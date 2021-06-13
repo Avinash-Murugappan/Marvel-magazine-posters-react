@@ -15,7 +15,7 @@ padding:2%;
             return(
 
                 <div className="gfcard" >
-                <Card style={{ width: '18rem',  transition: 'transform .2s' }}>
+                <Card style={{ width: '30rem',  transition: 'transform .2s' }}>
                 <Card.Img variant="top" src={data.url} />
                 </Card>
                 </div>

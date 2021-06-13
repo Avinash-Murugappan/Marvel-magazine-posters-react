@@ -6,10 +6,12 @@ import '../App.css'
 const grid = ({notLatest}) => {
 
 const Wrapper = styled.section`
-display: flexbox;
-flex-direction: column;
+display: flex;
+flex-direction: row;
 flex-wrap:wrap;
 padding:2%;
+
+
 
 `;
 
@@ -18,7 +20,7 @@ padding:2%;
             return(
 
                 <div className="gfcard"  style={{padding:'1%',  transition: 'transform .2s'}} >
-              <Card style={{ width: '8rem'}}>
+              <Card style={{ width: '12rem'}}>
                 <Card.Img variant="top" src={data.url} />
                 </Card>
                 </div>

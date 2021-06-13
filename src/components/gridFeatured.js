@@ -12,6 +12,7 @@ flex-direction: row;
 flex-wrap:nowrap;
 
 
+
 `;
 
 const Item1 = styled.section`
@@ -27,7 +28,7 @@ display: flex;
 flex-direction: row;
 flex-wrap:wrap;
 padding:2%;
-max-width: 700px;
+max-width: 1000px;
 
 `;
 
@@ -35,7 +36,7 @@ max-width: 700px;
      const latestIssue = latest.map(data=>{
             return(
                 <div className="gfcard" >
-               <Card style={{ width: '21rem', transition: 'transform .2s'}}>
+               <Card style={{ width: '34rem', transition: 'transform .2s'}}>
                 <Card.Img variant="top" src={data.url} />
                 </Card>
                 </div>
@@ -45,7 +46,7 @@ max-width: 700px;
          const notLatestIssue = notLatest.map(data=>{
             return(
                 <div className="gfcard"  >
-               <Card style={{ width: '7rem',transition: 'transform .2s'}}>
+               <Card style={{ width: '10rem',transition: 'transform .2s' ,padding:'5px' }}>
                 <Card.Img variant="top" src={data.url} />
                 </Card>
                 </div>
