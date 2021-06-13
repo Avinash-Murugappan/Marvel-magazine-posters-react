@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+}
+
+.btn {
+  padding: auto;
+}
+
+.gfcard:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.sc-jSFjdj {
+  justify-content: flex-end;
+  margin-left: 10%;
+}
+
+.sc-hKFxyN {
+  min-width: 100wv;
+}
